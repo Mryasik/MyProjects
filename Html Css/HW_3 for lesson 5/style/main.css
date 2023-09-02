@@ -1,0 +1,130 @@
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.header-container{
+    margin-top: 63px;
+    margin-bottom: 49px;
+}
+.header-logo{
+    display: block;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 94px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.text-blue{
+    color: #4BCAFF;
+}
+.header-nav__list{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: #35444F;
+    
+}
+.header-nav__link{
+    display: block;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    border-left: 1px solid white;
+    padding: 24px 33px 18px 32px;
+}
+.header-nav__link:last-child{
+    border-right: 1px solid white;
+}
+.header-nav__link:hover{
+    background-color: #222F3A;
+}
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.main-left-navigation{
+    width: 344px;
+    background: rgba(0, 0, 0, 0.0001);
+    border: 1px solid #000000;
+}
+.main-left-navigation__list{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-left-navigation__links{
+    display: block;
+    font-family: 'Roboto';
+
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 27px;
+
+    color: #485863;
+    padding: 26px 44px 26px 44px;
+}
+.main-left-navigation__links:hover{
+    background-color: #DBDBDB;
+    padding-left: 66px;
+}
+.main-content{
+    max-width: 885px;
+}
+.main-content__image{
+    width: 885px;
+    height: 529px;
+    background: rgba(0, 0, 0, 0.0001);
+    border: 1px solid #000000;
+    margin-bottom: 37px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.main-content__text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2C2C2C;
+    margin-bottom: 34px;
+}
+.main-content__text:last-child{
+    margin-bottom: 54px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    height: 69px;
+    background: rgba(99, 105, 110, 0.48);
+}
+
+.footer-nav__list{
+    display: flex;
+    gap: 20px;
+}
+.footer-nav__links{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28px;
+    color: #0C1927;
+}
+.footer-nav__links:hover{
+    color:#3181A6;
+    
+    text-decoration: underline;
+    text-underline-offset: 13px;
+}
+.footer-copyright{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #010101;
+}
